@@ -1,0 +1,83 @@
+/* ========== Modal ========== */
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: rgba(1, 31, 74, 0.4);
+  transition: opacity 0.4s, visibility 0.4s;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  height: 100%;
+  max-height: 680px;
+  padding: 42px 144px;
+  background-color: var(--primary-c-dark);
+  background-image: url('../img/modal/modal-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 48px;
+  overflow-y: auto;
+}
+.modal-btn-close {
+  position: absolute;
+  top: 42px;
+  right: 42px;
+}
+
+/* ========== Form ========== */
+.modal-title {
+  color: var(--primary-c-light);
+  margin-bottom: 40px;
+}
+.form-text {
+  max-width: 276px;
+  margin: 0 auto 32px;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  color: var(--primary-c-light);
+}
+.form-field {
+  margin-bottom: 24px;
+}
+.form-input {
+  padding: 18px 32px;
+  width: 100%;
+  font-size: 13px;
+  color: var(--primary-c-light);
+  background-color: transparent;
+  border: 2px solid var(--secondary-c-grey);
+  border-radius: 32px;
+}
+.form-input:focus {
+  background-color: var(--secondary-c-grey);
+  outline: none;
+}
+.form-input::placeholder {
+  color: var(--primary-c-light);
+  font-size: 13px;
+}
+.form-terms {
+  margin: 0 auto;
+  max-width: 209px;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--secondary-c-grey);
+}
+/* ========== Form ========== */
+/* ========== Modal ========== */

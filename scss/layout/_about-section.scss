@@ -1,0 +1,94 @@
+/* ========== About section ==========  */
+.about-container {
+  display: flex;
+  gap: 32px;
+}
+.about-content {
+  position: relative;
+  flex-basis: 709px;
+  margin-top: 48px;
+}
+.about-content::after {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: -520px;
+  bottom: 170px;
+  background-image: url('../img/about/star-3.svg');
+  background-repeat: no-repeat;
+  content: '';
+  z-index: 1;
+  animation: scale 5s infinite;
+}
+.about-title {
+  max-width: 529px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.about-section .accent-color {
+  text-transform: capitalize;
+}
+.about-text p {
+  margin-top: 40px;
+  font-size: 22px;
+  line-height: 1.73;
+}
+.about-text-accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.about-photos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-grow: 1;
+}
+.about-photos::before,
+.about-photos::after {
+  position: absolute;
+  background-repeat: no-repeat;
+  content: '';
+}
+.about-photos::before {
+  width: 40px;
+  height: 40px;
+  top: 280px;
+  right: 0;
+  background-image: url('../img/about/star-2.svg');
+  animation: scale 4s infinite;
+}
+.about-photos::after {
+  width: 64px;
+  height: 64px;
+  left: 124px;
+  bottom: 45px;
+  background-image: url('../img/about/star-1.svg');
+  animation: scale 3s infinite;
+}
+/* ========== Keyframes ========== */
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes transform {
+}
+/* ========== Keyframes ========== */
+
+.photo-before,
+.photo-after {
+  border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.2);
+}
+.photo-after {
+  align-self: flex-end;
+}
+
+/* ========== About section ==========  */

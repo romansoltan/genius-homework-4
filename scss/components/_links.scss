@@ -1,0 +1,25 @@
+.menu-link {
+  color: var(--primary-c-dark);
+  transition: color 0.3s;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-c);
+}
+.menu-link.link,
+.address-link {
+  color: var(--primary-c-light);
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.menu-link.link:hover,
+.menu-link.link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-c);
+}
+.form-terms-link {
+  color: var(--secondary-c-grey);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

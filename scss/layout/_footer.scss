@@ -1,0 +1,50 @@
+/* ========== Page-footer ========== */
+.page-footer {
+  padding: 56px 0;
+  position: relative;
+  background-color: var(--primary-c-dark);
+  background-image: url('../img/footer/background-footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.page-footer::after {
+  position: absolute;
+  width: 280px;
+  height: 210px;
+  right: -32px;
+  bottom: 0;
+  background-image: url('../img/footer/footer-decor.png');
+  background-repeat: no-repeat;
+  content: '';
+}
+.footer-container {
+  display: flex;
+  gap: 20px;
+}
+.footer-container .page-navigation,
+.footer-address {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+.foooter-logo,
+.footer-menu {
+  flex-grow: 1;
+}
+.address-list,
+.address-info {
+  flex-grow: 1;
+}
+.address-list .address-icon {
+  fill: var(--primary-c-light);
+}
+.address-list .address-icon:hover,
+.address-list .address-icon:focus {
+  fill: var(--accent-c);
+}
+.address-copyright {
+  font-size: 13px;
+  color: var(--secondary-c-grey);
+}
+/* ========== Page-footer ========== */

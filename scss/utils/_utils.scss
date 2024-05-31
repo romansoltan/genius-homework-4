@@ -1,0 +1,29 @@
+.section {
+  padding: 48px 0;
+}
+.container {
+  width: 100%;
+  max-width: 1272px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.section-title {
+  font-family: 'Play', sans-serif;
+  font-size: 64px;
+  text-align: center;
+}
+.accent-color {
+  color: var(--accent-c);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}

@@ -1,0 +1,26 @@
+/* ========== Carousel ==========  */
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  fill: var(--primary-c-dark);
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--primary-c-dark);
+  backdrop-filter: blur(15.364535331726074px);
+  transition: fill 0.4s, background-color 0.4s, border 0.4s;
+}
+.carousel-button:hover,
+.carousel-button:focus {
+  background-color: var(--accent-c);
+  fill: var(--primary-c-light);
+  border: var(--primary-c-light);
+}
+.carousel-button.prev {
+  transform: rotate(180deg);
+}
+/* ========== Carousel ==========  */

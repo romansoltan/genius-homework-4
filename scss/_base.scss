@@ -1,0 +1,39 @@
+/* ========== Common styles ========== */
+* {
+  box-sizing: border-box;
+}
+body {
+  color: var(--primary-c-dark);
+  background-color: var(--primary-c-light);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+p {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* ========== Common styles ========== */
