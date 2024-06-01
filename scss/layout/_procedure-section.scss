@@ -18,12 +18,16 @@
   height: 456px;
   padding: 372px 77px 32px 115px;
   border-radius: 120px 4px;
-  // background-image: linear-gradient(
-  //   180deg,
-  //   #011c44 47.4%,
-  //   #011c44 82.66%,
-  //   #011c44 99.06%
-  // );
+  background-image: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 47.4%,
+    rgba(1, 28, 68, 0.73) 82.66%,
+    var(--primary-c-dark) 99.06%
+  );
+  transition: transform 0.3s;
+}
+.procedure-card:hover {
+  transform: scale(1.05);
 }
 .procedure-image {
   position: absolute;
