@@ -22,16 +22,4 @@
 .benefits-list-item {
   flex-basis: calc((100% - 112px) / 3);
 }
-.benefits-card {
-  padding: 24px 32px;
-  border: 1px solid lightgray; /* remove */
-  border-radius: 32px;
-  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
-  background: #fff;
-}
-.benefits-list-text {
-  line-height: 1.33;
-  text-align: center;
-  color: var(--secondary-c-dark);
-}
 /* ========== Benefits section ==========  */

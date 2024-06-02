@@ -3,8 +3,12 @@
 @import './utils/utils';
 @import './base';
 @import './components/buttons';
-@import './components/carousel';
+@import './components/carousel-buttons';
 @import './components/links';
+@import './components/procedure-card';
+@import './components/benefits-card';
+@import './layout/section';
+@import './layout/container';
 @import './layout/header';
 @import './layout/hero-section';
 @import './layout/about-section';
@@ -13,3 +17,4 @@
 @import './layout/contact-section';
 @import './layout/footer';
 @import './layout/modal';
+@import './layout/forms'
