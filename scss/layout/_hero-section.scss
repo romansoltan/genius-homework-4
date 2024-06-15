@@ -8,35 +8,41 @@
       rgba(255, 255, 255, 0.19) 52.74%,
       rgba(255, 255, 255, 0) 74.46%
     ),
-    url('../img/hero/hero-bg.jpg');
+    url("../img/hero/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-}
-.hero-container {
-  padding-left: 120px;
-}
-.hero-content {
-  max-width: 529px;
-}
-.hero-btn-content {
-  max-width: 238px;
-}
-.hero-subtitle {
-  margin-bottom: 16px;
-}
-.hero-title {
-  margin-bottom: 40px;
-  font-family: 'Play', sans-serif;
-  font-size: 140px;
-  line-height: 0.81;
-  text-transform: capitalize;
-  color: var(--accent-c);
-}
-.hero-text {
-  font-size: 12px;
-  line-height: 1.5;
-  text-align: center;
-  color: var(--secondary-c-light);
+
+  &__container {
+    padding-left: 120px;
+  }
+
+  &__content {
+    max-width: 529px;
+  }
+
+  &__btn-content {
+    max-width: 238px;
+  }
+
+  &__subtitle {
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    font-family: "Play", sans-serif;
+    font-size: 140px;
+    line-height: 0.81;
+    text-transform: capitalize;
+    color: var(--accent-c);
+  }
+
+  &__text {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--secondary-c-light);
+  }
 }
 /* ========== Hero section ==========  */

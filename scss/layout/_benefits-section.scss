@@ -1,25 +1,25 @@
 /* ========== Benefits section ==========  */
 .benefits-section {
   padding-top: 176px;
+
+  &__container {
+    padding: 0 72px;
+  }
+
+  &__title {
+    max-width: 441px;
+    margin: 0 auto 48px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 112px) / 3);
+  }
 }
-.benefits-section .section-title,
-.procedure-section .section-title,
-.contacts-section .section-title {
-  margin-bottom: 48px;
-}
-.benefits-container {
-  padding: 0 72px;
-}
-.benefits-title {
-  max-width: 441px;
-  margin: 0 auto;
-}
-.benefits-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 56px;
-}
-.benefits-list-item {
-  flex-basis: calc((100% - 112px) / 3);
-}
+
 /* ========== Benefits section ==========  */

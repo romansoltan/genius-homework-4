@@ -1,5 +1,5 @@
 /* ========== Page-header ========== */
-.page-header {
+.header {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,28 +7,33 @@
   padding: 42px 0;
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.25);
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 56px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  &__address-list {
+    display: flex;
+    gap: 32px;
+  }
 }
-.header-container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-.header-navigation {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  gap: 40px;
-}
-.header-menu {
-  display: flex;
-  gap: 56px;
-  flex-grow: 1;
-  justify-content: center;
-}
-.header-address {
-  display: flex;
-  gap: 32px;
-}
+
 .address-icon {
   fill: var(--primary-c-dark);
   transition: fill 0.3s;
