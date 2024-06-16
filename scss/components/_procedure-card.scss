@@ -10,22 +10,25 @@
     var(--primary-c-dark) 99.06%
   );
   transition: transform 0.3s;
-}
-.procedure-card:hover {
-  transform: scale(1.05);
-}
-.procedure-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  border-radius: 120px 4px;
-}
-.procedure-list-title {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 1.18;
-  color: var(--primary-c-light);
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 120px 4px;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.18;
+    color: var(--primary-c-light);
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
