@@ -1,30 +1,42 @@
 /* ========== Contact section ==========  */
-.contacts-section {
+.contact-section {
   padding-bottom: 96px;
-}
-.contact-container {
-  padding: 0 72px;
-}
-.contact-content {
-  display: flex;
-  gap: 32px;
-}
-.contact-map {
-  flex-grow: 1;
-  flex-shrink: 0;
-  border-radius: 32px;
-}
-.contact-form-container {
-  background-color: var(--primary-c-dark);
-  border-radius: 32px;
-  background-image: url('../img/contact/background-form.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 48px 56px;
-  flex-grow: 2;
-}
-.contact-form-container .form-field {
-  margin-bottom: 16px;
+
+  &__container {
+    padding: 0 72px;
+  }
+
+  &__content {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__map {
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-radius: 32px;
+  }
+
+  &__form {
+    background-color: var(--primary-c-dark);
+    border-radius: 32px;
+    background-image: url("../img/contact/background-form.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 48px 56px;
+    flex-grow: 2;
+  }
+
+  
+
+  &__form-field {
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto 8px;
+  }
 }
 /* ========== Contact section ==========  */

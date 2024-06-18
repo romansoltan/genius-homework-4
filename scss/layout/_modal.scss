@@ -11,12 +11,14 @@
   padding: 20px 0;
   background-color: rgba(1, 31, 74, 0.4);
   transition: opacity 0.4s, visibility 0.4s;
+
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
+
 .modal {
   position: relative;
   width: 100%;
@@ -25,21 +27,32 @@
   max-height: 680px;
   padding: 42px 144px;
   background-color: var(--primary-c-dark);
-  background-image: url('../img/modal/modal-bg.png');
+  background-image: url("../img/modal/modal-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 48px;
   overflow-y: auto;
-}
-.modal-btn-close {
-  position: absolute;
-  top: 42px;
-  right: 42px;
+
+  &__btn-close {
+    position: absolute;
+    top: 42px;
+    right: 42px;
+  }
+
+  &__title {
+    color: var(--primary-c-light);
+    margin-bottom: 40px;
+  }
+
+  &__form-field {
+    margin-bottom: 24px;
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto 8px;
+  }
 }
 
-.modal-btn {
-  display: block;
-  margin: 0 auto 8px;
-}
 /* ========== Modal ========== */
