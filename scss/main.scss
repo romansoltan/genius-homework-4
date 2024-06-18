@@ -1,24 +1,27 @@
-@import './utils/fonts';
-@import './utils/variables';
-@import './utils/utils';
-@import './utils/texts';
-@import './utils/keyframes';
 @import './base';
+
+@import './utils/fonts';
+@import './utils/keyframes';
+@import './utils/texts';
+@import './utils/utils';
+@import './utils/variables';
+
+@import './components/benefits-card';
 @import './components/buttons';
 @import './components/carousel-buttons';
 @import './components/input';
 @import './components/links';
 @import './components/procedure-card';
-@import './components/benefits-card';
-@import './layout/section';
-@import './layout/container';
-@import './layout/header';
-@import './layout/hero-section';
+
 @import './layout/about-section';
 @import './layout/benefits-section';
-@import './layout/procedure-section';
 @import './layout/contact-section';
+@import './layout/container';
 @import './layout/footer';
 @import './layout/form-terms';
 @import './layout/form-text';
+@import './layout/header';
+@import './layout/hero-section';
 @import './layout/modal';
+@import './layout/procedure-section';
+@import './layout/section';
